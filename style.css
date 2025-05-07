@@ -1,0 +1,334 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; 
+}
+/* nav bar section*/
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* professional blue gradient */
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+  }
+  .hero-content {
+    max-width: 800px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }.hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Buttons */
+  .btn-primary, .btn-secondary {
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .btn-primary {
+    background-color: #ffffff;
+    color: #2a5298;
+    font-weight: 600;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ecf0f1;
+    color: #1e3c72;
+  }
+  
+  .btn-secondary {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    font-weight: 600;
+  }
+  
+  .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: #ecf0f1;
+  }
+/* Intro Section Styling */
+.intro {
+    background-color: #f1f6fa; /* soft blue-tinted background */
+    padding: 60px 20px;
+    text-align: center;
+  }
+    .intro h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+        color: #2a5298; /* professional blue */
+
+    }
+    .intro p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+    
+    }
+    .intro img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    /* Who We Serve Section */
+.who-we-serve {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .who-we-serve .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+    .who-we-serve h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+        color: #2a5298; /* professional blue */
+    }
+    .who-we-serve p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    /* Icon Grid */
+    .service-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+      }
+      /* Individual Icon Box */
+.service-box {
+    background-color: #f1f6fa;
+    border-radius: 12px;
+    padding: 20px;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-box img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .service-box p {
+    font-size: 1rem;
+    color: #444;
+    font-weight: 500;
+  }
+  /* ========== Featured Services Section ========== */
+.featured-services {
+    background-color: #f9fafc;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .featured-services .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .featured-services h2 {
+    font-size: 2.2rem;
+    color: #2a5298;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  
+  /* Services Grid */
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  /* Individual Service Item */
+  .service-item {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    width: 260px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .service-item h3 {
+    font-size: 1.25rem;
+    color: #2a5298;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* ========== Testimonials Section ========== */
+  .testimonials {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .testimonials .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .testimonials h2 {
+    font-size: 2.2rem;
+    color: #2a5298;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  
+  .testimonial-carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Individual Testimonial */
+  .testimonial-carousel blockquote {
+    background-color: #f1f6fa;
+    border-left: 5px solid #2a5298;
+    padding: 25px 30px;
+    font-style: italic;
+    border-radius: 10px;
+    position: relative;
+    color: #333;
+  }
+  
+  .testimonial-carousel blockquote::before {
+    content: "“";
+    font-size: 40px;
+    color: #2a5298;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+  }
+  
+  .testimonial-carousel footer {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2a5298;
+    text-align: right;
+  }
+  /* Section Title */
+.our-services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+    
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  /* Accordion Wrapper */
+  .service-accordion details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  /* Accordion Summary */
+  .service-accordion summary {
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #007B8F;
+    list-style: none;
+    outline: none;
+  }
+  
+  .service-accordion summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  .service-accordion summary::before {
+    content: '.';
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-accordion details[open] summary::before {
+    content: '-';
+  }
+  
+  /* Paragraph and List Inside Details */
+  .service-accordion p {
+    margin-top: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .service-accordion ul {
+    padding-left: 1.2rem;
+    margin: 0.5rem 0 1rem 0;
+    color: #444;
+  }
+  
+  .service-accordion li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Book Now Button */
+  .btn-primary {
+    display: inline-block;
+    background-color: #007B8F;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #005f6a;
+  }
